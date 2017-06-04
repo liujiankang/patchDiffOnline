@@ -7,3 +7,7 @@ A.通过补丁形式上线代码
 3.不同机器间代码的同步
 B.通过切换代码分支上线代码
 
+
+---
+提交到composer
+curl -XPOST -H'content-type:application/json' 'https://packagist.org/api/update-package?username=liujiankang&apiToken=API_TOKEN' -d'{"repository":{"url":"PACKAGIST_PACKAGE_URL"}}'
