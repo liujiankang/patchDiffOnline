@@ -8,7 +8,7 @@
             "email": "liujiankang1@foxmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "master",
     "require": {
         "php": ">=7.0.0"
     },
